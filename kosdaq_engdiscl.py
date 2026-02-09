@@ -192,7 +192,7 @@ if st.button('코스닥 영문공시 지원대상 공시조회'):
         url = 'https://kind.krx.co.kr/disclosure/todaydisclosure.do'
         headers = {
             "Referer" : "https://kind.krx.co.kr/",
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36"
         }
         params = {
             "method": "searchTodayDisclosureSub",
