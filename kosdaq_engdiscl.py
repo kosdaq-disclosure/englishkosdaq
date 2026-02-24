@@ -215,7 +215,7 @@ if st.button('코스닥 영문공시 지원대상 공시조회'):
         
         response = requests.post(url, headers = headers, params=params)
         soup = BeautifulSoup(response.text, 'html.parser')
-        st.write(soup.prettify())
+        
         # 총 건수와 페이지 수 추출
         total_items_element = soup.select_one('.info.type-00 em')
         total_pages_text = soup.select_one('.info.type-00').text.strip()
